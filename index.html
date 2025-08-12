@@ -1,104 +1,450 @@
-<!DOCTYPE html>
-<html lang="es">
+<!doctype html>
+<html class="no-js" lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>DiUna</title>
-  <link rel="icon" type="image/png" href="iconoo.png">
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    
+    <!--====== Title ======-->
+    <title>DiUna</title>
+    
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--====== Favicon Icon ======-->
+    <link rel="shortcut icon" href="assets/images/favicon.png" type="image/png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon_180.png">
+
+    <!--====== Animate CSS ======-->
+    <link rel="stylesheet" href="assets/css/animate.css">
+        
+    <!--====== lineicons CSS ======-->
+    <link rel="stylesheet" href="assets/css/lineicons.css">
+        
+    <!--====== Bootstrap CSS ======-->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    
+    <!--====== Default CSS ======-->
+    <link rel="stylesheet" href="assets/css/default.css">
+    
+    <!--====== Style CSS ======-->
+    <link rel="stylesheet" href="assets/css/style.css">
+    
 </head>
+
 <body>
-  <!-- Header -->
-  <header class="main-header">
-    <div class="container">
-      <div class="logo-group">
-        <img src="icono.png" alt="Icono DiUna" class="app-icon">
-      </div>
-      <a href="#" class="download-btn">Descargar</a>
-    </div>
-  </header>
+    <!--[if IE]>
+    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+    
+    <!--====== PRELOADER PART START ======-->
 
-  <!-- Hero Section -->
-  <section class="hero-diuna">
-    <div class="hero-diuna__left">
-      <h1>Descubre la forma más fácil de comprar, vender y alquilar</h1>
-      <p>
-        En DiUna puedes encontrar productos, servicios y oportunidades cerca de ti.<br>
-        Únete a la economía circular y hazlo todo desde una sola app.
-      </p>
-      <div class="hero-diuna__download">
-        <span>Descarga la aplicación de forma gratuita:</span>
-        <div class="download-badges">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/7/78/Google_Play_Store_badge_EN.svg" alt="Google Play">
-          <img src="https://developer.apple.com/assets/elements/badges/download-on-the-app-store.svg" alt="App Store">
+    <div class="preloader">
+        <div class="loader">
+            <div class="ytp-spinner">
+                <div class="ytp-spinner-container">
+                    <div class="ytp-spinner-rotator">
+                        <div class="ytp-spinner-left">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                        <div class="ytp-spinner-right">
+                            <div class="ytp-spinner-circle"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="hero-diuna__right">
-      <img src="mock.png" alt="Mockup DiUna" class="hero-diuna__mockup">
-    </div>
-  </section>
-
-  <!-- Footer estilo Gronda -->
-  <footer class="footer-diuna">
-    <div class="footer-container">
-      <!-- Brand/Logo -->
-      <div class="footer-col brand-col">
-        <img src="icono.png" alt="Icono DiUna" class="footer-logo">
-        <div class="footer-brand-name">DiUna</div>
-        <div class="footer-year">2025 DiUna</div>
-      </div>
-      <div class="footer-col">
-        <div class="footer-title">Para usuarios</div>
-        <a href="#">Comprar</a>
-        <a href="#">Vender</a>
-        <a href="#">Alquilar</a>
-        <a href="#">Servicios</a>
-      </div>
-      <div class="footer-col">
-        <div class="footer-title">Acerca de DiUna</div>
-        <a href="#">Nuestra historia</a>
-        <a href="#">Noticias</a>
-        <a href="#">Trabaja con nosotros</a>
-        <a href="#">Contacto</a>
-      </div>
-      <div class="footer-col">
-        <div class="footer-title">Ayuda</div>
-        <a href="#">Preguntas frecuentes</a>
-        <a href="#">Condiciones</a>
-        <a href="politica.html">Política de privacidad</a>
-      </div>
     </div>
 
-  <div class="footer-bottom-inline">
-  <div class="footer-badges">
-    <a href="#" target="_blank">
-      <img src="boton1.png" alt="App Store" />
+    <!--====== PRELOADER PART ENDS ======-->
+    
+    <!--====== HEADER PART START ======-->
+
+    <header class="header-area">
+        <div class="navbar-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="assets/images/logo.png" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ml-auto">
+                                    <li class="nav-item active">
+                                        <a class="page-scroll" href="#home">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#why">Características</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#sostenibilidad">Sostenibilidad</a>
+                                    </li>
+                              
+                                    <li class="nav-item">
+                                        <a class="page-scroll" href="#download">Descargar</a>
+                                    </li>
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                        </nav> <!-- navbar -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- navbar area -->
+
+        <div id="home" class="header-hero bg_cover d-lg-flex align-items-center">
+            
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+            <div class="shape shape-6"></div>
+            
+            <div class="container">
+                <div class="row align-items-center justify-content-center justify-content-lg-between">
+                    <div class="col-lg-6 col-md-10">
+                        <div class="header-hero-content">
+                            <h3 class="header-title wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.2s"><span>Descubre</span> la forma más fácil de comprar, vender y alquilar</h3>
+                            <p class="text wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.6s">En DiUna puedes encontrar productos, servicios y oportunidades cerca de ti.
+Únete a la economía circular y hazlo todo desde una sola app.</p>
+<ul class="d-flex">
+  <li>
+    <a  target="_blank" rel="nofollow" class="wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.8s">
+      <img class="download-btn" src="assets/images/play-store.png" alt="Google Play" style="height: 50px;">
     </a>
-    <a href="#" target="_blank">
-      <img src="boton2.png" alt="Google Play" />
+  </li>
+  <li style="margin-left: 15px;">
+    <a  target="_blank" rel="nofollow" class="wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="1s">
+      <img class="download-btn" src="assets/images/app-store.png" alt="Apple Store" style="height: 50px;">
     </a>
-  </div>
-  <div class="footer-socials">
-    <a href="https://www.instagram.com/diuna.pe/" aria-label="Instagram">
-      <svg width="28" height="28" fill="none" stroke="#a5ad8b" stroke-width="2" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17" cy="7" r="1.2"/></svg>
-    </a>
-    <a href="#" aria-label="Facebook">
-      <svg width="28" height="28" fill="none" stroke="#a5ad8b" stroke-width="2" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
-    </a>
-    <a href="#" aria-label="TikTok">
-      <svg width="28" height="28" fill="none" stroke="#a5ad8b" stroke-width="2" viewBox="0 0 24 24"><path d="M9 17V8h3V6h3a5 5 0 1 0 5 5v3a4 4 0 1 1-4-4h-2v8"/></svg>
-    </a>
-    <a href="#" aria-label="LinkedIn">
-      <svg width="28" height="28" fill="none" stroke="#a5ad8b" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="6" width="20" height="16" rx="2"/><circle cx="7" cy="12" r="1.5"/><path d="M7 13.5v3m6-3v3m-3-5.5a3.5 3.5 0 1 1 7 0v5.5"/></svg>
-    </a>
-  </div>
-</div>
+  </li>
+</ul>
+
+                        </div> <!-- header hero content -->
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6 col-10">
+                        <div class="header-image">
+                            <img src="assets/images/header-app.png" alt="app" class="image wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        </div> <!-- header image -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+            <div class="header-shape-1"></div> <!-- header shape -->
+            <div class="header-shape-2">
+                <img src="assets/images/header-shape-2.png" alt="shape">
+            </div> <!-- header shape -->
+        </div> <!-- header hero -->
+    </header>
+
+    <!--====== HEADER PART ENDS ======-->
+    
+    <!--====== SERVICES PART START ======-->
+    
+    <section id="why" class="services-area pt-110 pb-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="section-title text-center pb-25">
+                        <h3 class="title">¿Por qué usar DiUna?</h3>
+                        <p class="text">En DiUna puedes encontrar productos, servicios y oportunidades cerca de ti.
+Únete a la economía circular y hazlo todo desde una sola app.</p>
+                    </div> <!-- section title -->
+                </div>
+            </div> <!-- row -->
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-services services-color-1 text-center mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                        <div class="services-icon d-flex align-items-center justify-content-center">
+                            <i class="lni lni-layers"></i>
+                        </div>
+                        <div class="services-content">
+                            <h4 class="services-title"><a>Variedad y Flexibilidad</a></h4>
+                            <p class="text">Encuentra productos y servicios que se adaptan a tus necesidades, todo en un solo lugar.</p>
+                        </div>
+                    </div> <!-- single services -->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-services services-color-2 text-center mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                        <div class="services-icon d-flex align-items-center justify-content-center">
+                            <i class="lni lni-layout"></i>
+                        </div>
+                        <div class="services-content">
+                            <h4 class="services-title"><a>Fácil de Usar</a></h4>
+                            <p class="text">Interfaz intuitiva que te permite publicar o buscar rápidamente sin complicaciones.</p>
+                        </div>
+                    </div> <!-- single services -->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-services services-color-3 text-center mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.6s">
+                        <div class="services-icon d-flex align-items-center justify-content-center">
+                            <i class="lni lni-bolt"></i>
+                        </div>
+                        <div class="services-content">
+                            <h4 class="services-title"><a>Rápido y Eficiente</a></h4>
+                            <p class="text">Carga ágil y navegación fluida para que no pierdas tiempo.</p>
+                        </div>
+                    </div> <!-- single services -->
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="single-services services-color-4 text-center mt-30 wow fadeInUpBig" data-wow-duration="1.3s" data-wow-delay="0.8s">
+                        <div class="services-icon d-flex align-items-center justify-content-center">
+                            <i class="lni lni-protection"></i>
+                        </div>
+                        <div class="services-content">
+                            <h4 class="services-title"><a>Mercado Seguro</a></h4>
+                            <p class="text">Compra, vende o alquila productos y servicios con total confianza.</p>
+                        </div>
+                    </div> <!-- single services -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    
+    <!--====== SERVICES PART ENDS ======-->
+    
+    <!--====== ABOUT PART START ======-->
+
+    <section id="sostenibilidad" class="about-area pt-70 pb-120">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <div class="about-image mt-50 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <div class="about-shape"></div>
+                        <img class="app" src="assets/images/about-app.png" alt="app">
+                    </div> <!-- about image -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="about-content mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                <section class="sostenibilidad">
+                    <div class="section-title" style="text-align:center; max-width:800px; margin:0 auto;">
+                        <h3 class="title">Ahorra comprando de segunda mano</h3>
+                        <p class="text">
+                            Comprar productos de segunda mano es bueno para tu bolsillo y para el planeta. 
+                            En <strong>DiUna</strong> creemos en la economía circular: dar una segunda vida a los objetos, 
+                            reducir residuos y cuidar los recursos naturales.
+                        </p>
+                    </div>
+
+                    <div class="benefits-grid" style="display:grid; gap:20px; grid-template-columns:repeat(auto-fit, minmax(250px, 1fr)); margin-top:30px;">
+                        
+                        <!-- Tarjeta Económico -->
+                        <div class="benefit-card" style="background:#f7f9f4; padding:20px; border-radius:12px; text-align:center;">
+                            <h4 style="font-size:1.5rem; margin-bottom:10px;">💰 46%</h4>
+                            <p style="font-weight:bold; margin-bottom:5px;">Más barato</p>
+                            <p>De media, comprar de segunda mano cuesta casi la mitad que uno nuevo, sin perder calidad.</p>
+                        </div>
+
+                        <!-- Tarjeta CO2 -->
+                        <div class="benefit-card" style="background:#f7f9f4; padding:20px; border-radius:12px; text-align:center;">
+                            <h4 style="font-size:1.5rem; margin-bottom:10px;">🌍 0.76 kg CO₂</h4>
+                            <p style="font-weight:bold; margin-bottom:5px;">Menos emisiones</p>
+                            <p>Equivale a lo que produce un tren de alta velocidad en 322 km. Menos CO₂, mejor aire.</p>
+                        </div>
+
+                        <!-- Tarjeta Agua -->
+                        <div class="benefit-card" style="background:#f7f9f4; padding:20px; border-radius:12px; text-align:center;">
+                            <h4 style="font-size:1.5rem; margin-bottom:10px;">💧 328 litros</h4>
+                            <p style="font-weight:bold; margin-bottom:5px;">Ahorro de agua</p>
+                            <p>Equivalente a lo que bebe un adulto en 8 meses. Cada compra ayuda a conservar agua.</p>
+                        </div>
+                        <div class="benefit-card" style="background:#f7f9f4; padding:20px; border-radius:12px; text-align:center;">
+                            <h4 style="font-size:1.5rem; margin-bottom:10px;">♻️ Menos plástico</h4>
+                            <p style="font-weight:bold; margin-bottom:5px;">Ahorro de plástico</p>
+                            <p>Evita el uso de <strong>239 kg</strong> de plástico, suficiente para fabricar <strong>11.983 botellas</strong>.</p>
+                        </div>
+
+                    </div>
+</section>
+
+                        
+                    </div> <!-- about content -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    
+    <!--====== ABOUT PART ENDS ======-->
+    
+    
+    <!--====== DOWNLOAD PART START ======-->
+    
+    <section id="download" class="download-area pt-70 pb-40">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6 col-md-9">
+                    <div class="download-image mt-50 wow fadeInRightBig" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                        <img class="image" src="assets/images/download-app.png" alt="download">
+                        
+                        <div class="download-shape-1"></div>
+                        <div class="download-shape-2">
+                            <img class="svg" src="assets/images/download-shape.png" alt="shape">
+                        </div>
+                    </div> <!-- download image -->
+                </div>
+                <div class="col-lg-6">
+                    <div class="download-content mt-45 wow fadeInLeftBig" data-wow-duration="1.3s" data-wow-delay="0.5s">
+                        <h3 class="download-title">¡Descarga y comienza a usar DiUna!</h3>
+                        <p class="text">Encuentra, vende y alquila todo lo que necesitas cerca de ti.
+Únete a la comunidad que apuesta por la economía circular y aprovecha al máximo tus recursos.
+Fácil, rápido y seguro, todo desde una sola app.
+</p>
+                        <ul>
+                            <li><a class="app-store download-btn" ><img src="assets/images/app-store.png" alt="store"></a></li>
+                            <li><a class="play-store download-btn"><img src="assets/images/play-store.png" alt="store"></a></li>
+                        </ul>
+                         <a rel="nofollow" class="main-btn download-btn">Descargar</a>
+                    </div> <!-- download image -->
+                </div>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </section>
+    
+    <!--====== DOWNLOAD PART ENDS ======-->
+    
+    <!--====== PART START ======-->
+    
+    <footer id="footer" class="footer-area">
+        
+        <div class="footer-shape shape-1"></div>
+        <div class="footer-shape shape-2"></div>
+        <div class="footer-shape shape-3"></div>
+        <div class="footer-shape shape-4"></div>
+        <div class="footer-shape shape-5"></div>
+        <div class="footer-shape shape-6"></div>
+        <div class="footer-shape shape-7"></div>
+        <div class="footer-shape shape-8">
+            <img class="svg" src="assets/images/footer-shape.svg" alt="Shape">
+        </div>
+        
+        <div class="footer-widget pt-30 pb-80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="footer-about mt-50 wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.2s">
+                            <a class="logo" href="#" >
+                                <img src="assets/images/logo.png" alt="Logo">
+                            </a>
+                            <p class="text">DiUna es la app donde puedes comprar, vender, alquilar y ofrecer servicios de forma fácil, rápida y segura.</p>
+                            <ul class="social">
+                                <li><a href="#"><i class="lni lni-facebook"></i></a></li>
+                                <li><a href="https://www.instagram.com/diuna.pe/"><i class="lni lni-instagram"></i></a></li>
+                                <li><a href="https://www.linkedin.com/company/diuna-marketplace/about/?viewAsMember=true"><i class="lni lni-linkedin"></i></a></li>
+                            </ul>
+                        </div> <!-- footer about -->
+                    </div> 
+                    <div class="col-lg-5 col-md-6">
+                        <div class="footer-link d-flex flex-wrap">
+                            <div class="footer-link-wrapper mt-45 wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.4s">
+                                <div class="footer-title">
+                                    <h4 class="title">Quick Links</h4>
+                                </div>
+                                <ul class="link">
+                                    <li><a class="" href="#home">Home</a></li>
+                                    <li><a class="" href="#why">Características</a></li>
+                                    <li><a class="" href="#sostenibilidad">Sostenibilidad</a></li>
+                                    <li><a class="" href="#download">Descargar</a></li>
+                                </ul>
+                            </div> <!-- footer link wrapper -->
+                            
+                            <div class="footer-link-wrapper mt-45 wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.6s">
+                                <div class="footer-title">
+                                    <h4 class="title">Support</h4>
+                                </div>
+                                <ul class="link">
+                                    <li><a class="" href="politica.html">Política de Privacidad</a></li>
+                                    <li><a class="" href="#">Términos de Uso</a></li>
+                                    <li><a class="" href="#">Legal</a></li>
+                                    <li><a class="" href="#">Mapa del Sitio</a></li>
+                                </ul>
+                            </div> <!-- footer link wrapper -->
+                        </div> <!-- footer link -->
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-contact mt-45 wow fadeIn" data-wow-duration="1.3s" data-wow-delay="0.8s">
+                            <div class="footer-title">
+                                <h4 class="title">Quick Link</h4>
+                            </div>
+                            <ul class="contact-list">
+                                <li>
+                                    <div class="contact-info d-flex">
+                                        <div class="info-content media-body">
+                                            <p class="text"><a href="#"><i class="lni lni-envelope"></i> soporte@diuna.lat</a></p>
+                                        </div>
+                                    </div> <!-- contact info -->
+                                </li>
+                                <li>
+                                    <div class="contact-info d-flex">
+                                        <div class="info-content media-body">
+                                            <p class="text"><a href="#"><i class="lni lni-world"></i> www.DiUna.lat</a></p>
+                                        </div>
+                                    </div> <!-- contact info -->
+                                </li>
+                               
+                            </ul> <!-- contact list -->
+                        </div> <!-- footer contact -->
+                    </div>
+                </div> <!-- row -->
+            </div> <!-- container -->
+        </div> <!-- footer widget -->
+        
+        
+    </footer>
+    
+    <!--====== PART ENDS ======-->
+    
+    <!--====== BACK TOP TOP PART START ======-->
+
+    <a href="#" class="back-to-top"><i class="lni lni-chevron-up"></i></a>
+
+    <!--====== BACK TOP TOP PART ENDS ======-->
+    
+    <!--====== PART START ======-->
+    
+<!--
+    <section class="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-"></div> 
+            </div>
+        </div>
+    </section>
+-->
+    
+    <!--====== PART ENDS ======-->
+    
 
 
-  </footer>
 
-  <!-- Modal QR -->
+
+    <!--====== Jquery js ======-->
+    <script src="assets/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="assets/js/vendor/modernizr-3.7.1.min.js"></script>
+    
+    <!--====== Bootstrap js ======-->
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    
+    
+    <!--====== WOW js ======-->
+    <script src="assets/js/wow.min.js"></script>
+    
+    
+    <!--====== Scrolling Nav js ======-->
+    <script src="assets/js/jquery.easing.min.js"></script>
+    <script src="assets/js/scrolling-nav.js"></script>
+    
+    <!--====== Main js ======-->
+    <script src="assets/js/main.js"></script>
+    
+
+    
+    <!-- Modal QR -->
   <div id="qr-modal" class="modal">
     <div class="modal-content">
       <span class="close-modal">&times;</span>
@@ -106,12 +452,6 @@
       <p>Escanea este código QR con tu teléfono y ve directamente a la descarga de la aplicación.</p>
       <div class="qr-container">
         <img src="qr-code.png" alt="Código QR para descargar DiUna" class="qr-code">
-        <div class="qr-decorations">
-          <span class="dot"></span>
-          <span class="dot"></span>
-          <span class="leaf"></span>
-          <span class="circle"></span>
-        </div>
       </div>
     </div>
   </div>
@@ -219,51 +559,8 @@
   margin: 0 auto;
 }
 
-/* Decorative elements */
-.qr-decorations {
-  position: absolute;
-  inset: 0;
-  pointer-events: none;
-}
 
-.dot {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  background: #adc92b;
-  border-radius: 50%;
-}
-
-.dot:nth-child(1) {
-  top: 0;
-  right: 20px;
-}
-
-.dot:nth-child(2) {
-  bottom: 30px;
-  left: 10px;
-}
-
-.leaf {
-  position: absolute;
-  width: 20px;
-  height: 20px;
-  border-radius: 0 50% 50% 50%;
-  background: #bfe03d;
-  transform: rotate(45deg);
-  bottom: 10px;
-  right: 10px;
-}
-
-.circle {
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  border: 2px solid #adc92b;
-  border-radius: 50%;
-  top: 20px;
-  left: 15px;
-}
   </style>
 </body>
+
 </html>
